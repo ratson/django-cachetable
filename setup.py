@@ -19,6 +19,8 @@ setuptools.setup(
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'License :: OSI Approved :: MIT License',
+        'Framework :: Django',
+        'Framework :: Django :: 1.11',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
