@@ -1,6 +1,9 @@
-from django.core.cache.backends.db import base64, force_bytes, pickle
+import base64
+import pickle
+
 from django.db import models
 from django.forms import TextInput
+from django.utils.encoding import force_bytes
 
 from django.contrib import admin
 from django.contrib.humanize.templatetags import humanize

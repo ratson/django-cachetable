@@ -1,5 +1,12 @@
+[[ source ]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
 [dev-packages]
 
 pytest = "*"
+pytest-cov = "*"
+pytest-django = "*"
 tox = "*"
-"-e ." = "*"
+"django-cachetable" = {editable = true, path = "."}
